@@ -22,6 +22,15 @@ h1,h2,h3 {
 a{
     text-decoration: none;
 }
+#titulo {  
+    text-align: center;
+    align-self: center;
+}
+
+#sobre-floristeria{
+    align-items: center;
+    align-self: center;
+}
 
 header{
     background-color: #ffffff;
@@ -83,11 +92,14 @@ nav a:hover{
     border-radius: 30px;
     font-weight: bold;
     width: fit-content;
+    align-self: center;
     transition: transform 0.3s ease, background-color 0.3s ease;   
+    
 }
 #inicio a:hover{
     background-color: #7d3453;
     transform: translateY(-3px);
+
 }
 
 section h2{
@@ -267,4 +279,24 @@ footer p {
     section {
         padding: 60px 6%;
     }
+}
+
+#boton-whatsapp {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 40px;
+    padding: 14px 25px;
+    background-color: #2EAD68;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#boton-whatsapp:hover {
+    background-color: #248A54;
+
+    transform: translateY(-3px);
+}
+#envianos-mesaje{
+    text-align: center;
 }
