@@ -28,8 +28,8 @@ a{
 }
 
 #sobre-floristeria{
-    align-items: center;
-    align-self: center;
+    text-align: center;
+    margin: 0 auto 20px;
 }
 
 header{
@@ -55,11 +55,12 @@ nav{
 nav a {
     color: #444;
     font-weight: bold;
-    transition: color 03.s ease;
+    transition: color 0.3s ease;
 }
 nav a:hover{
     color: #9b4568;
 }
+
 #inicio{
     min-height: 85vh;
     display: flex;
@@ -291,6 +292,10 @@ footer p {
     border-radius: 30px;
     font-weight: bold;
     transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#boton-whatsapp i {
+    font-size: 20px;
+    margin-right: 8px;
 }
 #boton-whatsapp:hover {
     background-color: #248A54;
