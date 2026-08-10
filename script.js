@@ -13,6 +13,6 @@ botonwhatsapp.addEventListener("click",function(event){
     event.preventDefault();
     const numero= "573148308537";
     const mensaje = "Hola, Floristería Vicky. Estoy interesado/a en uno de sus arreglos florales.";
-    const url  = `https://wa.me/${3148302537}?text=${encodeURIComponent(mensaje)}`; 
+    const url  = `https://wa.me/${3148308537}?text=${encodeURIComponent(mensaje)}`; 
      window.open(url, "_blank");
 });
